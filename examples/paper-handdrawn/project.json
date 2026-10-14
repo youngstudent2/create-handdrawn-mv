@@ -1,0 +1,392 @@
+{
+  "version": 1,
+  "title": "因为喜欢你 · 克琪亚 · 动作修正版",
+  "duration": 30,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "audio_required": true,
+  "requirements": {
+    "min_character_keyframes": 2,
+    "all_shots_need_character": true,
+    "unique_assets": true,
+    "requires_alpha": false
+  },
+  "character_reference": "references/model_cover.jpg; model_frame.jpg; model_skirt.jpg — 克琪亚，灰棕发髻与双辫，蓝眼，青色中华服装",
+  "audio_source": "用户指定《恋爱999天》参考视频 00:00–00:30",
+  "revision_note": "原片保留的9组素材包含纸底，故全局alpha要求为false；新绘7/10/11的六张素材均使用真实透明通道。片尾底部两行已移除，来源保留于README。",
+  "shots": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 2.194,
+      "character": true,
+      "framing": "右侧半身",
+      "action": "回头相遇后招呼",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_01_A.png",
+          "pose": "回头相遇后招呼",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_01_B.png",
+          "pose": "回头相遇后招呼",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "start": 2.194,
+      "end": 4.017,
+      "character": true,
+      "framing": "左侧面部特写",
+      "action": "偷看到对视",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_02_A.png",
+          "pose": "偷看",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_02_B.png",
+          "pose": "对视",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "start": 4.017,
+      "end": 6.571,
+      "character": true,
+      "framing": "右侧半身",
+      "action": "睁眼招手到闭眼笑",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_03_A.png",
+          "pose": "睁眼招手",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_03_B.png",
+          "pose": "闭眼笑",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "start": 6.571,
+      "end": 8.719,
+      "character": true,
+      "framing": "左侧半身带桌沿",
+      "action": "看消息到捧住手机开心",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_04_A.png",
+          "pose": "看消息",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_04_B.png",
+          "pose": "捧住手机开心",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "start": 8.719,
+      "end": 11.447,
+      "character": true,
+      "framing": "右侧半身带茶桌",
+      "action": "端茶示意",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_05_A.png",
+          "pose": "端茶示意",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_05_B.png",
+          "pose": "端茶示意",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "start": 11.447,
+      "end": 13.375,
+      "character": true,
+      "framing": "左侧半身与递饼干的手",
+      "action": "向观众递出小饼干",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "短纸色淡出淡入",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_06_A.png",
+          "pose": "向观众递出小饼干",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_06_B.png",
+          "pose": "向观众递出小饼干",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "start": 13.375,
+      "end": 16.742,
+      "character": true,
+      "framing": "全身完整，头发双手双靴不出框",
+      "action": "双脚落地，轻提丝带并闭眼笑",
+      "camera": "固定机位，身体不做整体扭曲",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/revised/shot_07_A.png",
+          "pose": "双脚落地，轻提丝带并闭眼笑",
+          "allow_edge_crop": false
+        },
+        {
+          "id": "B",
+          "file": "assets/revised/shot_07_B.png",
+          "pose": "双脚落地，轻提丝带并闭眼笑",
+          "allow_edge_crop": false
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "start": 16.742,
+      "end": 18.564,
+      "character": true,
+      "framing": "右侧面部特写",
+      "action": "花瓣落在鼻尖后笑起来",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_08_A.png",
+          "pose": "花瓣落在鼻尖后笑起来",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_08_B.png",
+          "pose": "花瓣落在鼻尖后笑起来",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "start": 18.564,
+      "end": 21.455,
+      "character": true,
+      "framing": "左侧半身与信封",
+      "action": "收好信封到递向观众",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "短纸色淡出淡入",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_09_A.png",
+          "pose": "收好信封",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_09_B.png",
+          "pose": "递向观众",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "start": 21.455,
+      "end": 23.638,
+      "character": true,
+      "framing": "两只手特写，袖口自然延伸出画框",
+      "action": "指尖接近到轻放掌心",
+      "camera": "固定机位，身体不做整体扭曲",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "节拍直切",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/revised/shot_10_A.png",
+          "pose": "指尖接近",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/revised/shot_10_B.png",
+          "pose": "轻放掌心",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "start": 23.638,
+      "end": 25.832,
+      "character": true,
+      "framing": "右侧半身，头发完整，身体延伸至画框底",
+      "action": "下巴旁轻握拳，睁眼微笑到闭眼笑",
+      "camera": "固定机位，身体不做整体扭曲",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "短纸色淡出淡入",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/revised/shot_11_A.png",
+          "pose": "下巴旁轻握拳，睁眼微笑",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/revised/shot_11_B.png",
+          "pose": "闭眼笑",
+          "allow_edge_crop": true
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "start": 25.832,
+      "end": 30,
+      "character": true,
+      "framing": "右侧半身与比心",
+      "action": "比心到眨眼",
+      "camera": "保留原镜头缓慢移动",
+      "layers": [
+        "暖纸背景",
+        "角色关键画",
+        "字幕",
+        "稀疏花瓣或线条"
+      ],
+      "effect": "每帧只显示一张姿势，避免重影",
+      "transition": "尾音淡出",
+      "keyframes": [
+        {
+          "id": "A",
+          "file": "assets/shot_12_A.png",
+          "pose": "比心",
+          "allow_edge_crop": true
+        },
+        {
+          "id": "B",
+          "file": "assets/shot_12_B.png",
+          "pose": "眨眼",
+          "allow_edge_crop": true
+        }
+      ]
+    }
+  ]
+}

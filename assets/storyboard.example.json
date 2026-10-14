@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "title": "角色梦游：6秒结构示例，使用前替换为实际分镜",
+  "duration": 6,
+  "width": 1440,
+  "height": 1080,
+  "fps": 30,
+  "audio_required": true,
+  "requirements": {
+    "min_character_keyframes": 2,
+    "all_shots_need_character": true,
+    "unique_assets": true,
+    "requires_alpha": true
+  },
+  "character_reference": "填写实际参考路径和身份锚点",
+  "audio_source": "填写实际来源与截取区间",
+  "shots": [
+    {
+      "id": "01", "start": 0, "end": 2, "character": true,
+      "framing": "胸像，完整头发和双手，底边由窗框承接",
+      "action": "闭眼静息到睁眼招手",
+      "camera": "缓慢推进，动作发生时短暂停留",
+      "layers": ["纸纹背景", "窗框后景", "角色", "避开面部的花瓣"],
+      "effect": "花瓣响应抬手动作",
+      "transition": "抬手方向接纸条揭幕",
+      "keyframes": [
+        {"id": "A", "file": "assets/shot_01_A.png", "pose": "闭眼，双手轻放胸前", "allow_edge_crop": true},
+        {"id": "B", "file": "assets/shot_01_B.png", "pose": "睁眼微笑，一手抬至脸侧招呼", "allow_edge_crop": true}
+      ]
+    },
+    {
+      "id": "02", "start": 2, "end": 4, "character": true,
+      "framing": "全身斜向飞行，头发、手和鞋完整留白",
+      "action": "收身蓄势到伸手飞行",
+      "camera": "沿飞行方向跟随，前后景差速",
+      "layers": ["星空", "远景纸星", "角色", "画面下沿丝带"],
+      "effect": "背景径向光线；主体保持清晰",
+      "transition": "飞行方向衔接甩镜",
+      "keyframes": [
+        {"id": "A", "file": "assets/shot_02_A.png", "pose": "双膝弯曲，一手收于肩侧，期待表情"},
+        {"id": "B", "file": "assets/shot_02_B.png", "pose": "朝飞行方向伸出手，一腿展开，开朗微笑"}
+      ]
+    },
+    {
+      "id": "03", "start": 4, "end": 6, "character": true,
+      "framing": "胸像，头发和双手完整，底边由相框承接",
+      "action": "胸前比心到眨眼道别",
+      "camera": "轻退后稳住片尾",
+      "layers": ["递归相框背景", "主体角色", "边缘星点"],
+      "effect": "递归仅作用于背景，先做背景效果再画主体",
+      "transition": "停留后随尾音淡出",
+      "keyframes": [
+        {"id": "A", "file": "assets/shot_03_A.png", "pose": "双手胸前比心，双眼看向观众", "allow_edge_crop": true},
+        {"id": "B", "file": "assets/shot_03_B.png", "pose": "一手留在胸前，另一手道别，单眼眨眼", "allow_edge_crop": true}
+      ]
+    }
+  ]
+}

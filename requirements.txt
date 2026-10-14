@@ -1,0 +1,3 @@
+# Only required for image checks and contact sheets.
+# Plan-only validation uses the Python standard library.
+Pillow

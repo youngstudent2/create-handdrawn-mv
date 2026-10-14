@@ -1,0 +1,301 @@
+{
+  "description": "Exact-file provenance for the original skill and recovered project source. New publication documentation and tests are listed separately by the repository tree.",
+  "original_source_files": [
+    {
+      "path": "SKILL.md",
+      "source": "Existing create-handdrawn-mv skill/SKILL.md",
+      "source_sha256": "eb09011274f27c00c5504399beda823b744e566c8ea49c11542337a32c3be9b5",
+      "modifications": [],
+      "published_sha256": "eb09011274f27c00c5504399beda823b744e566c8ea49c11542337a32c3be9b5"
+    },
+    {
+      "path": "agents/openai.yaml",
+      "source": "Existing create-handdrawn-mv skill/agents/openai.yaml",
+      "source_sha256": "8293a57eaaea089ce004ae78f37e5f49f60910f60f2d6a31459071c947afa0e8",
+      "modifications": [],
+      "published_sha256": "8293a57eaaea089ce004ae78f37e5f49f60910f60f2d6a31459071c947afa0e8"
+    },
+    {
+      "path": "references/repair-anatomy-and-transitions.md",
+      "source": "Existing create-handdrawn-mv skill/references/repair-anatomy-and-transitions.md",
+      "source_sha256": "780bdd89cdbe4ad8e19f67e97a0658e3c4e3655f1aba3811bfcf51c836a741e4",
+      "modifications": [],
+      "published_sha256": "780bdd89cdbe4ad8e19f67e97a0658e3c4e3655f1aba3811bfcf51c836a741e4"
+    },
+    {
+      "path": "references/storyboard-and-art.md",
+      "source": "Existing create-handdrawn-mv skill/references/storyboard-and-art.md",
+      "source_sha256": "d9b9673acdd5c3b392e734100f23fd8e416db57bcc24d553791ba1110e357274",
+      "modifications": [],
+      "published_sha256": "d9b9673acdd5c3b392e734100f23fd8e416db57bcc24d553791ba1110e357274"
+    },
+    {
+      "path": "references/validation.md",
+      "source": "Existing create-handdrawn-mv skill/references/validation.md",
+      "source_sha256": "e3e9e178c3539e17ce085a7dbee6c3ec2809f0cd1579e337326f95f3d3a10ff7",
+      "modifications": [],
+      "published_sha256": "e3e9e178c3539e17ce085a7dbee6c3ec2809f0cd1579e337326f95f3d3a10ff7"
+    },
+    {
+      "path": "references/cookiya-case.md",
+      "source": "Existing create-handdrawn-mv skill/references/cookiya-case.md",
+      "source_sha256": "2e2456e35d49b90015b554aaa57f7b289ef3b574d8ec8a3ef0420f08cdf47164",
+      "modifications": [
+        "Removed private Library identifiers and private file recovery instructions; made case feedback impersonal. Technical lessons and public credits retained."
+      ],
+      "published_sha256": "84e53733e1e8ca4e9a77b068c607dbda363f59b78b68e5672d16fa89f0f41285"
+    },
+    {
+      "path": "references/compositing.md",
+      "source": "Existing create-handdrawn-mv skill/references/compositing.md",
+      "source_sha256": "d5116bf995153eddbd3d09a86c83b08823f56dc4b8d798c1c5654f67a00e84e1",
+      "modifications": [],
+      "published_sha256": "d5116bf995153eddbd3d09a86c83b08823f56dc4b8d798c1c5654f67a00e84e1"
+    },
+    {
+      "path": "scripts/check_project.py",
+      "source": "Existing create-handdrawn-mv skill/scripts/check_project.py",
+      "source_sha256": "0fbdbb6601c6cdb9035db827222ef809a0c4c18904d4b343c0e84904c59fa2a0",
+      "modifications": [],
+      "published_sha256": "0fbdbb6601c6cdb9035db827222ef809a0c4c18904d4b343c0e84904c59fa2a0"
+    },
+    {
+      "path": "assets/icon.svg",
+      "source": "Existing create-handdrawn-mv skill/assets/icon.svg",
+      "source_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee",
+      "modifications": [],
+      "published_sha256": "49315dda7125ec5fc77ef5f2b96126d8b2121c6e72944b4702972e90f321d3ee"
+    },
+    {
+      "path": "assets/storyboard.example.json",
+      "source": "Existing create-handdrawn-mv skill/assets/storyboard.example.json",
+      "source_sha256": "4ec92e266bf741eafdadd446e902d3da87ab0026779f387cae02189b66103c06",
+      "modifications": [],
+      "published_sha256": "4ec92e266bf741eafdadd446e902d3da87ab0026779f387cae02189b66103c06"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/check_assets.py",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/check_assets.py",
+      "source_sha256": "f961d65281516b79034d8a33b58ecca10dec14b9f2af8d42c520c11be6ecf9ed",
+      "modifications": [],
+      "published_sha256": "f961d65281516b79034d8a33b58ecca10dec14b9f2af8d42c520c11be6ecf9ed"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/requirements.txt",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/requirements.txt",
+      "source_sha256": "50fccae73496a259e2192edc468ff727e5df7a31f12224e7f7a87b35e087202b",
+      "modifications": [],
+      "published_sha256": "50fccae73496a259e2192edc468ff727e5df7a31f12224e7f7a87b35e087202b"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/compositor.py",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/compositor.py",
+      "source_sha256": "d5ac80d4742728dee7a9ae11a5d5b59b246287b51035191725e926149fe25bd8",
+      "modifications": [],
+      "published_sha256": "d5ac80d4742728dee7a9ae11a5d5b59b246287b51035191725e926149fe25bd8"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/render_v3.py",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/render_v3.py",
+      "source_sha256": "b3b95c62d06dece4211227c257a5d72c968bf001d5049c5886afbdcebc47707e",
+      "modifications": [],
+      "published_sha256": "b3b95c62d06dece4211227c257a5d72c968bf001d5049c5886afbdcebc47707e"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/shot_plan.json",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/shot_plan.json",
+      "source_sha256": "80f0c29ffaf4719a493da94b06bfb8f8f9887bde13abe9e659bcda675040d3d4",
+      "modifications": [],
+      "published_sha256": "80f0c29ffaf4719a493da94b06bfb8f8f9887bde13abe9e659bcda675040d3d4"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/production_v3.json",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/production_v3.json",
+      "source_sha256": "8d19b602ae60145ba60b413ef8622fa7de47b692cb795644cbf82ccd2d76271e",
+      "modifications": [],
+      "published_sha256": "8d19b602ae60145ba60b413ef8622fa7de47b692cb795644cbf82ccd2d76271e"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/package_project.py",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/package_project.py",
+      "source_sha256": "e0f894ade4b7ee5db689e7fc64ccdea00937849f862e92e65790ae9c7fc6cdba",
+      "modifications": [],
+      "published_sha256": "e0f894ade4b7ee5db689e7fc64ccdea00937849f862e92e65790ae9c7fc6cdba"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/shaders/sprite.vert",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/shaders/sprite.vert",
+      "source_sha256": "ad42f9667795c4c4d8e9aa641bfc0eaad98a5d5cd0ee940ce88a8a1dcd9eacd0",
+      "modifications": [],
+      "published_sha256": "ad42f9667795c4c4d8e9aa641bfc0eaad98a5d5cd0ee940ce88a8a1dcd9eacd0"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/shaders/effects.frag",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/shaders/effects.frag",
+      "source_sha256": "71e25a3fb26cc89c1feb2f4b2e0c6bdf021ef164ae82f6ee00c90a143f085e09",
+      "modifications": [],
+      "published_sha256": "71e25a3fb26cc89c1feb2f4b2e0c6bdf021ef164ae82f6ee00c90a143f085e09"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/shaders/background.frag",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/shaders/background.frag",
+      "source_sha256": "5a91628b32e27c2453567e8f8c7b3aae57d10e9e312ef0be25d521f7f536a2ca",
+      "modifications": [],
+      "published_sha256": "5a91628b32e27c2453567e8f8c7b3aae57d10e9e312ef0be25d521f7f536a2ca"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/shaders/sprite.frag",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/shaders/sprite.frag",
+      "source_sha256": "636f49d00c5b4ac49611b3d07670024ab0bec94b5ad5ce87ddc1b488dcb79a97",
+      "modifications": [],
+      "published_sha256": "636f49d00c5b4ac49611b3d07670024ab0bec94b5ad5ce87ddc1b488dcb79a97"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/shaders/full.vert",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/shaders/full.vert",
+      "source_sha256": "fe41a59808499a07c4bb0e8a88265785d62833a65b4b9f8ac07b65306ffaaa00",
+      "modifications": [],
+      "published_sha256": "fe41a59808499a07c4bb0e8a88265785d62833a65b4b9f8ac07b65306ffaaa00"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/kaleidoscope.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/kaleidoscope.glsl",
+      "source_sha256": "1abd2c1eed0a3b5aadcdb1023dbe05db1aa3dd2a9b31a62ba055e082bf3cc72b",
+      "modifications": [],
+      "published_sha256": "1abd2c1eed0a3b5aadcdb1023dbe05db1aa3dd2a9b31a62ba055e082bf3cc72b"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/directionalwarp.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/directionalwarp.glsl",
+      "source_sha256": "9b4988a12affa2fc89a7a1d87ad2df8c8bfaf185fc83e958188e5c674dbf03ce",
+      "modifications": [],
+      "published_sha256": "9b4988a12affa2fc89a7a1d87ad2df8c8bfaf185fc83e958188e5c674dbf03ce"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/crosswarp.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/crosswarp.glsl",
+      "source_sha256": "a3a8a4800489f26f8ff3be6b63ccef2ab53279d97df16d469db3d4f57b7df381",
+      "modifications": [],
+      "published_sha256": "a3a8a4800489f26f8ff3be6b63ccef2ab53279d97df16d469db3d4f57b7df381"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/morph.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/morph.glsl",
+      "source_sha256": "be0b79ca27ba19dacd350a8f20988ab4b847937585fac878ac08ecc684fdcfba",
+      "modifications": [],
+      "published_sha256": "be0b79ca27ba19dacd350a8f20988ab4b847937585fac878ac08ecc684fdcfba"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/DreamyZoom.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/DreamyZoom.glsl",
+      "source_sha256": "0ae348c409a29220ef5320db063c8ebd71757bafff533a72a852250328d01bb9",
+      "modifications": [],
+      "published_sha256": "0ae348c409a29220ef5320db063c8ebd71757bafff533a72a852250328d01bb9"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/burn.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/burn.glsl",
+      "source_sha256": "0274aa48dda4368dfabe62a0fc77367019851e20c40391d4a53a051a479be83a",
+      "modifications": [],
+      "published_sha256": "0274aa48dda4368dfabe62a0fc77367019851e20c40391d4a53a051a479be83a"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/LICENSE",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/LICENSE",
+      "source_sha256": "0db684e0150546743ae96d8ecf083be716786d834af7dbf8170ee8b6c247978d",
+      "modifications": [],
+      "published_sha256": "0db684e0150546743ae96d8ecf083be716786d834af7dbf8170ee8b6c247978d"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/InvertedPageCurl.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/InvertedPageCurl.glsl",
+      "source_sha256": "94b573f129dcff2d85e106fd1c3193671d3dfe08f4d3fcd48bfa7bcc59a59858",
+      "modifications": [],
+      "published_sha256": "94b573f129dcff2d85e106fd1c3193671d3dfe08f4d3fcd48bfa7bcc59a59858"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/GlitchMemories.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/GlitchMemories.glsl",
+      "source_sha256": "27cca2daf0ca247eb371a852da3cc455f1c764ada992bc5d33061a155614308f",
+      "modifications": [],
+      "published_sha256": "27cca2daf0ca247eb371a852da3cc455f1c764ada992bc5d33061a155614308f"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/ButterflyWaveScrawler.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/ButterflyWaveScrawler.glsl",
+      "source_sha256": "985beba91c1dd105aa4ae9df94efe22648e2028d7bae9b5e4bcc64ff2a8f2c82",
+      "modifications": [],
+      "published_sha256": "985beba91c1dd105aa4ae9df94efe22648e2028d7bae9b5e4bcc64ff2a8f2c82"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/displacement.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/displacement.glsl",
+      "source_sha256": "ef090908787642ad5c43104d84562b57ee3ac80b51c787bd67b88016e2674290",
+      "modifications": [],
+      "published_sha256": "ef090908787642ad5c43104d84562b57ee3ac80b51c787bd67b88016e2674290"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/Swirl.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/Swirl.glsl",
+      "source_sha256": "fbbea8a885ed8cdf913fe481ee09e8897a79fd4f7c9ec6a1f459f6010147301e",
+      "modifications": [],
+      "published_sha256": "fbbea8a885ed8cdf913fe481ee09e8897a79fd4f7c9ec6a1f459f6010147301e"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/ripple.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/ripple.glsl",
+      "source_sha256": "3d71067791beccc32c0a388260ac099d8213e5fd312d896a4a46f1285b94b9d1",
+      "modifications": [],
+      "published_sha256": "3d71067791beccc32c0a388260ac099d8213e5fd312d896a4a46f1285b94b9d1"
+    },
+    {
+      "path": "examples/sweet-reverie/v3/vendor/gl-transitions/CrossZoom.glsl",
+      "source": "Cookiya_38_Keyframes_Project_v3.zip/Cookiya_38_Keyframes/v3/vendor/gl-transitions/CrossZoom.glsl",
+      "source_sha256": "a30adba2a78deac0ac114a30ea285e972fdd7d488ed0cde90e15bc0eef333e84",
+      "modifications": [],
+      "published_sha256": "a30adba2a78deac0ac114a30ea285e972fdd7d488ed0cde90e15bc0eef333e84"
+    },
+    {
+      "path": "examples/paper-handdrawn/render.py",
+      "source": "Cookiya_Handdrawn_Project_修正版.zip/Cookiya_Handdrawn/render.py",
+      "source_sha256": "284bef8132050dc5ebfab644f73d4c1a6bca1781899cc307b1c4a9131aa3cab0",
+      "modifications": [],
+      "published_sha256": "284bef8132050dc5ebfab644f73d4c1a6bca1781899cc307b1c4a9131aa3cab0"
+    },
+    {
+      "path": "examples/paper-handdrawn/download_sources.py",
+      "source": "Cookiya_Handdrawn_Project_修正版.zip/Cookiya_Handdrawn/download_sources.py",
+      "source_sha256": "0d77adb21490e368a1f94b799dab899f55a7f154c5cb99ac41e91debbf0d0463",
+      "modifications": [],
+      "published_sha256": "0d77adb21490e368a1f94b799dab899f55a7f154c5cb99ac41e91debbf0d0463"
+    },
+    {
+      "path": "examples/paper-handdrawn/get_sources.py",
+      "source": "Cookiya_Handdrawn_Project_修正版.zip/Cookiya_Handdrawn/get_sources.py",
+      "source_sha256": "c6c7f535eb055cf734557838db10316d276cb2b05424a3580af5cda8c4bc5e3f",
+      "modifications": [],
+      "published_sha256": "c6c7f535eb055cf734557838db10316d276cb2b05424a3580af5cda8c4bc5e3f"
+    },
+    {
+      "path": "examples/paper-handdrawn/requirements.txt",
+      "source": "Cookiya_Handdrawn_Project_修正版.zip/Cookiya_Handdrawn/requirements.txt",
+      "source_sha256": "de58a1832f360e87fbd90a3658bc40b160fbdc8c788454e4ad7b82bb959fefa2",
+      "modifications": [],
+      "published_sha256": "de58a1832f360e87fbd90a3658bc40b160fbdc8c788454e4ad7b82bb959fefa2"
+    },
+    {
+      "path": "examples/paper-handdrawn/project.json",
+      "source": "Cookiya_Handdrawn_Project_修正版.zip/Cookiya_Handdrawn/project.json",
+      "source_sha256": "e9ea56ab39ec11ea1f02ebab490a4e87dde8bc5db8b0b134c13f7d18f09c55ec",
+      "modifications": [],
+      "published_sha256": "e9ea56ab39ec11ea1f02ebab490a4e87dde8bc5db8b0b134c13f7d18f09c55ec"
+    },
+    {
+      "path": "examples/paper-handdrawn/assets/OFL.txt",
+      "source": "Cookiya_Handdrawn_Project_修正版.zip/Cookiya_Handdrawn/assets/OFL.txt",
+      "source_sha256": "0333a85fe077b6849f8e417acc44e8bd879442ceb681e271acf93e2d57fd4e2e",
+      "modifications": [],
+      "published_sha256": "0333a85fe077b6849f8e417acc44e8bd879442ceb681e271acf93e2d57fd4e2e"
+    }
+  ]
+}
